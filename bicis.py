@@ -54,6 +54,9 @@ try:
                                     print(f"devolucion exitosa ha registrado {candidad_a_devolver}bicicletas")
                                     except ValueError:
                                         print("error, debe ingresar un numero entero valido")
-                                        
+                                        #opcion 4: viajes activos
+                                        elif opcion == 4:
+                                        print("\n[historial]actualmente hay {viajes_activos}bicicleta(s)en uso por usuarios")
+
                                     
 
