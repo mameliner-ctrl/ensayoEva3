@@ -58,5 +58,10 @@ try:
                                         elif opcion == 4:
                                         print("\n[historial]actualmente hay {viajes_activos}bicicleta(s)en uso por usuarios")
 
-                                    
+                                    #opcion 5 salir
+                                    elif opcion == 5:
+                                        print("gracias por utilizar nuestro sofware, hasta la proxima")
+                                        ejecutando = False 
+                                        else:
+                                            print("opcion fuera de rango")
 
